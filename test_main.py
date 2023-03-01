@@ -7,7 +7,7 @@ from main import inc
 
 # execute with pytest
 def test_answer():
-  assert inc(3) == 5  # deliberately fails
+  assert inc(3) == 4  # deliberately succeeds?
 
 
 def test_answer2():
